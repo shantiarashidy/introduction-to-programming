@@ -19,13 +19,15 @@ int main() {
     if (op == '+')
         cout << "num1 + num2 is :" << num1 + num2;
 
-    if (op == '-')
+    else if (op == '-')
         cout << "num1 - num2 is :" << num1 - num2;
 
-    if (op == '/')
+    else if (op == '/')
         cout << "num1 / num2 is :" << num1 / num2;
 
-    if (op == '*')
+    else if (op == '*')
         cout << "num1 * num2 is :" << num1 * num2;
+    else
+        cout<<"invalid input!!!";
 
 }
